@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pedro Shop</title>
+		<meta charset="utf-8">
+		<meta name="viewport"content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"type="text/css"href="css/bootstrap4.min.css">
+		<link rel="stylesheet"type="text/css"href="css/style.css">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+		function myFunctionone() {
+		var x = document.getElementById("list_one");
+		x.style.display ="block";
+		var a = document.getElementById("list_two");
+		a.style.display ="none";
+		}
+		function myFunctionthree() {
+		var x = document.getElementById("list_one");
+		x.style.display ="none";
+		}
+		function myFunctiontwo() {
+		var y = document.getElementById("list_two");
+		y.style.display ="block";
+		var b = document.getElementById("list_one");
+		b.style.display ="none";
+		}
+		function myFunctionfour() {
+		var x = document.getElementById("list_two");
+		x.style.display ="none";
+		}
+		</script>
+		
+		
+	</head>
+	<body>
+		<div class="wrapper-container">
+			<header class="site-header">
+				<div class="header-top">
+					<div class="header-firstnav">
+						<nav class="navbar navbar-expand-lg">
+							
+						</nav>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<nav class="navbar  fixed-top navbar-expand-lg  navbar-light bg-light ">
+						<div class="container">
+							<a class="navbar-brand"href="#">
+								<img style="width:40px;"class="d-inline-block align-top"alt=""src="logo.png">
+								<span class="logo"id="black">Pedro</span><span class="logo"id="blue"> Mall</span>
+							</a>
+							<button class="navbar-toggler"type="button"data-toggle="collapse"data-target="#navbarNavDropdown"aria-controls="navbarNavDropdown"aria-expanded="false"aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse"id="navbarNavDropdown">
+								<ul class="navbar-nav">
+									<!-- Dummy nav do not remove--->
+									<li class="nav-item active">
+										<a class="nav-link"href="#">  </a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link"href="#">  </a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link"href="#">  </a>
+									</li>
+									<!-- Dummy nav do not remove--->
+									<li class="nav-item dropdown"onmouseover="myFunctionone()">
+										<a class="nav-link dropdown-toggle"href="#"id="navbarDropdownMenuLink"role="button"data-toggle="dropdown"aria-haspopup="true"aria-expanded="false">
+											<b>TOYS</b>
+										</a>
+										<div class="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
+											<a class="dropdown-item"href="#">
+											</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown"onmouseover="myFunctiontwo()">
+										<a class="nav-link dropdown-toggle"href="#"id="navbarDropdownMenuLink"role="button"data-toggle="dropdown"aria-haspopup="true"aria-expanded="false">
+											<b>ESSENTIALS</b>
+										</a>
+										<div class="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
+											<a class="dropdown-item"href="#">
+											</a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link"href="#"><b>EROTHECA</b></a>
+									</li>
+								</ul>
+								<div class="pull-right">
+									<span>
+										<a class="nav-link"href="#"><i class="fa fa-search fa-2x"></i></a>
+									</span>
+									<span><a class="nav-link"href="#"><i class="fa fa-user fa-2x"></i></a></span>
+									<span>
+										<a class="nav-link"href="#"><i class="fa fa-shopping-cart fa-2x"aria-hidden="true"></i></a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</nav>
+					<div class="list_one"id="list_one"onmouseleave="myFunctionthree()">
+						<div class="row">
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/toys/Vibradores_140x140.png">
+										Vibrators
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/toys/chinese_balls.jpg">
+										Chinese balls
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/toys/para-ellos_140x140.png">
+										Erotic penis toys
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom zoom"src="img/toys/anal-v2_140x140.png">
+										Toys and accessories for anal sex
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/toys/bondage_140x140.png">
+										BDSM-Fetish
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/toys/ver-todo-v2_140x140.png">
+										All sex toys
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="list_two"id="list_two" onmouseleave="myFunctionfour()">
+						<div class="row">
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/essentials/1-lubricantes_140x140.png">
+										Lubricants
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/essentials/2-aceites-velas_140x140.png">
+										Massage oil and Candles
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/essentials/3-afrodisiacos-est_140x140.png">
+										Stimulants and aphrodisiacs
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/essentials/4-higiene-b_140x140.png">
+										Lingerie and accessories
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/essentials/icono-lenceria-low_140x140.png">
+										Erotic games
+									</span>
+								</a>
+							</div>
+							<div class="col-sm-2">
+								<a href="#">
+									<span class="nav-span">
+										<img class="nav-thumb zoom"src="img/essentials/juegos_140x140.png">
+										Health Hygiene and condoms
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>

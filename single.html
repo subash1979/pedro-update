@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pedro Shop</title>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"type="text/css"href="css/bootstrap4.min.css">
+    <link rel="stylesheet"type="text/css"href="css/style.css">
+    <link rel="stylesheet"type="text/css"href="css/style1.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    function myFunctionone() {
+    var x = document.getElementById("list_one");
+    x.style.display ="block";
+    var a = document.getElementById("list_two");
+    a.style.display ="none";
+    }
+    function myFunctionthree() {
+    var x = document.getElementById("list_one");
+    x.style.display ="none";
+    }
+    function myFunctiontwo() {
+    var y = document.getElementById("list_two");
+    y.style.display ="block";
+    var b = document.getElementById("list_one");
+    b.style.display ="none";
+    }
+    function myFunctionfour() {
+    var x = document.getElementById("list_two");
+    x.style.display ="none";
+    }
+    </script>
+    
+    
+    
+    
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <header class="site-header">
+        <div class="header-top">
+          <div class="header-firstnav">
+            <nav class="navbar navbar-expand-lg">
+              
+            </nav>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <nav class="navbar  fixed-top navbar-expand-lg  navbar-light bg-light ">
+            <div class="container">
+              <a class="navbar-brand"href="#">
+                <img style="width:40px;"class="d-inline-block align-top"alt=""src="logo.png">
+                <span class="logo"id="black">Pedro</span><span class="logo"id="blue"> Mall</span>
+              </a>
+              <button class="navbar-toggler"type="button"data-toggle="collapse"data-target="#navbarNavDropdown"aria-controls="navbarNavDropdown"aria-expanded="false"aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse"id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <!-- Dummy nav do not remove--->
+                  <li class="nav-item active">
+                    <a class="nav-link"href="#">  </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link"href="#">  </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link"href="#">  </a>
+                  </li>
+                  <!-- Dummy nav do not remove--->
+                  <li class="nav-item dropdown"onmouseover="myFunctionone()">
+                    <a class="nav-link dropdown-toggle"href="#"id="navbarDropdownMenuLink"role="button"data-toggle="dropdown"aria-haspopup="true"aria-expanded="false">
+                      <b>TOYS</b>
+                    </a>
+                    <div class="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item"href="#">
+                      </a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown"onmouseover="myFunctiontwo()">
+                    <a class="nav-link dropdown-toggle"href="#"id="navbarDropdownMenuLink"role="button"data-toggle="dropdown"aria-haspopup="true"aria-expanded="false">
+                      <b>ESSENTIALS</b>
+                    </a>
+                    <div class="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item"href="#">
+                      </a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"href="#"><b>EROTHECA</b></a>
+                  </li>
+                </ul>
+                <div class="pull-right">
+                  <span>
+                    <a class="nav-link"href="#"><i class="fa fa-search fa-2x"></i></a>
+                  </span>
+                  <span><a class="nav-link"href="#"><i class="fa fa-user fa-2x"></i></a></span>
+                  <span>
+                    <a class="nav-link"href="#"><i class="fa fa-shopping-cart fa-2x"aria-hidden="true"></i></a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+          <div class="list_one"id="list_one"onmouseleave="myFunctionthree()">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/Vibradores_140x140.png">
+                    Vibrators
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/chinese_balls.jpg">
+                    Chinese balls
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/para-ellos_140x140.png">
+                    Erotic penis toys
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom zoom"src="img/toys/anal-v2_140x140.png">
+                    Toys and accessories for anal sex
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/bondage_140x140.png">
+                    BDSM-Fetish
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/ver-todo-v2_140x140.png">
+                    All sex toys
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="list_two"id="list_two" onmouseleave="myFunctionfour()">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/1-lubricantes_140x140.png">
+                    Lubricants
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/2-aceites-velas_140x140.png">
+                    Massage oil and Candles
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/3-afrodisiacos-est_140x140.png">
+                    Stimulants and aphrodisiacs
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/4-higiene-b_140x140.png">
+                    Lingerie and accessories
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/icono-lenceria-low_140x140.png">
+                    Erotic games
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/juegos_140x140.png">
+                    Health Hygiene and condoms
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content-container">
+        <div class="promo">
+          <h4>Free Shipping to all over the World from $140</h4>
+        </div>
+        <div class="breadcrumb" style="background-color: white; color: rgba(0,0,0,.5)">
+          <span> > Sexy Lingerie  </span>
+          <span>  > V Neckline Bodysuite</span>
+        </div>
+        <div class="prd_content">
+          <div class="prd_single">
+            <div class="row">
+              <div class="col-sm-7 col-md-7 col-lg-8 image-container">
+                <div class="prd-discount">
+                  <span> -14%
+                  </span>
+                </div>
+                <div class="prd_img_full" id="prd_img_f">
+                  <a href="#" >
+                    <img src="img/products/g.png" >
+                  </a>
+                </div>
+                <div class="prd_img_thumb" style="margin-top: 76px">
+                  <ul>
+                    <li class="prd_t" onclick="getImage();" style="float:left; list-style: none; ">
+                      <a href="#">
+                        <img src="img/products/g1.png"  class="myCol">
+                      </a>
+                    </li>
+                    <li class="prd_t" onclick="getImage2();" class="myCol" style="float:left; list-style: none; ">
+                      <a href="#" >
+                        <img src="img/products/g2.png"  class="myCol">
+                      </a>
+                    </li>
+                    <li class="prd_t" onclick="getImage3();" style="float:left; list-style: none; ">
+                      <a href="#" >
+                        <img src="img/products/g3.png"   class="myCol">
+                      </a>
+                    </li>
+                    <li class="prd_t" onclick="getImage4();" style="float:left; list-style: none;">
+                      <a href="#">
+                        <img src="img/products/g4.png" class="myCol">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                
+                
+              </div>
+              <div class="col-sm-5 col-md-5 col-lg-4 col-xs-12 sticky-container">
+                <div class="prd_shop_cart sticky" style="position: static; top: 90px;right:30px; width: 320px;">
+                  <div class="sticky-fixed">
+                    <div class="prd_shop_container">
+                      <div class="col-xs-12 product-shop product-shop-header">
+                        <div class="prd-shop-title">
+                          <span id="h1b">
+                            V <span class="spl">Leg Avenue</span> neckline <span class="spl">bodysuit</span>
+                          </span>
+                          <div class="review">
+                            <span id="stars">stars</span><br>
+                            <span id="rvw">Available</span>
+                          </div>
+                        </div>
+                        <div class="discount-rate">
+                          <span id="disc-prc"> $36.00</span>
+                          <span id="disc-amt">$31.99</span>
+                          <span id="disc-box">-14%</span>
+                        </div>
+                        <div class="select-size">
+                          <div id="sec">Select Size :</div>
+                          <span id="ye"><a href="#" style="text-decoration: none;color:#565656;">YE</a></span>
+                          <span id="ml"><a href="#" style="text-decoration: none;color:#565656;">ML</a></span>
+                        </div>
+                        <div id="free-shipping">
+                          Product with <b>FREE Shipping</b> to Peninsula
+                        </div>
+                        <button class="btn btn-cyan-lg get-blue center">
+                        ADD TO CART
+                        </button>
+                        <div class="tags">
+                          <div id="tag1">
+                            <span> <span class="divider">|</span> 2 year warranty</span>
+                            <span><span class="divider">|</span> DISCREET shipping</span>
+                          </div>
+                          <div id="tag2">
+                            <span><span class="divider">|</span> 1 year return</span>
+                            <span><span class="divider">|</span> SAFE payment</span>
+                          </div>
+                        </div>
+                        <div id="hashtag">
+                          YOUR #HASHTAG HERE
+                        </div>
+                        <div class="prc-selector">
+                          <span id="reduc">No of Items
+                            <select class="custom-select fxd">
+                              <option class="custom-option">3.55$</option>
+                              <option class="custom-option">4.55$</option>
+                              <option class="custom-option">5.55$</option>
+                              <option class="custom-option">6.55$</option>
+                              <option class="custom-option">7.55$</option>
+                            </select>
+                            <img src="img/pg-favicon.png" alt="PAGANTIS" style="height: 30px; padding: 5px 0px; position: relative; display: inline-block; vertical-align: middle;">
+                            <span class="flat-link">+ info</span>
+                          </span>
+                          
+                        </div>
+                        <div class="pay-image">
+                          <img src="img/payment_methods_small.png" style="max-width: 180px;"><br>
+                          
+                          The prices include VAT. Shipping costs included for the Peninsula.
+                          
+                        </div>
+                        
+                      </div>
+                      
+                    </div>
+                    <div class="bot-rpd">
+                      <a href="" class="prev">
+                        <span><</span>
+                        <img src="img/bt1.jpg" style="width: 50px;">
+                      </a>
+                      <a href="" class="next">
+                        <img src="img/bt2.png" style="width: 50px;">
+                        <span>></span>
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- End of Products -->
+        
+      </div>
+    </div>
+    <!-- Related Products Carousel -->
+    <div class="rpd-wrapper">
+      <h2 class="rpd-t">Products related with Leg Avenue V-neck bodysuit</h2>
+      
+      <div class="rpd-container">
+        <div class="rpd-box1">
+          
+          <div class="bot-rpd1">
+            <a href="" class="prev1">
+              <span><</span>
+              <img src="img/bt1.jpg" style="width: 50px;">
+            </a>
+          </div>
+          
+          <div class="rpd-top">
+            <a href="#" class="prd-grid-image">
+              <img src="img/rpd/rpd1.png" height="240" width="240">
+            </a>
+          </div>
+          <div class="rpd-bottom">
+            <a href="#" class="rpd-prd-title">
+              <h6 class="rpd-pdh">Sheath dress with sparkly</h6>
+              <span class="rpd-pds">Lingerie</span>
+            </a>
+            <div class="rdp-price">
+              <span id="rpd-strk">$29.99 </span><span id="rpd-cl">$24.99</span>
+              
+            </div>
+          </div>
+        </div>
+        <div class="rpd-box2">
+          <div class="rpd-top">
+            <a href="#" class="prd-grid-image">
+              <img src="img/rpd/rpd2.png" height="240" width="240">
+            </a>
+          </div>
+          <div class="rpd-bottom">
+            <a href="#" class="rpd-prd-title">
+              <h6 class="rpd-pdh">Sheath dress with sparkly</h6>
+              <span class="rpd-pds">Lingerie</span>
+            </a>
+            <div class="rdp-price">
+              <span id="rpd-strk">$29.99 </span><span id="rpd-cl">$24.99</span>
+              
+            </div>
+          </div>
+        </div>
+        <div class="rpd-box3">
+          <div class="rpd-top">
+            <a href="#" class="prd-grid-image">
+              <img src="img/rpd/rpd3.png" height="240" width="240">
+            </a>
+          </div>
+          <div class="rpd-bottom">
+            <a href="#" class="rpd-prd-title">
+              <h6 class="rpd-pdh">Sheath dress with sparkly</h6>
+              <span class="rpd-pds">Lingerie</span>
+            </a>
+            <div class="rdp-price">
+              <span id="rpd-strk">$29.99 </span><span id="rpd-cl">$24.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="rpd-box4">
+          <div class="bot-rpd2">
+            <a href="" class="next1">
+              <img src="img/bt2.png" style="width: 50px;">
+              <span>></span>
+              
+            </a>
+          </div>
+          <div class="rpd-top">
+            <a href="#" class="prd-grid-image">
+              <img src="img/rpd/rpd4.png" height="240" width="240">
+            </a>
+          </div>
+          <div class="rpd-bottom">
+            <a href="#" class="rpd-prd-title">
+              <h6 class="rpd-pdh">Sheath dress with sparkly</h6>
+              <span class="rpd-pds">Lingerie</span>
+            </a>
+            <div class="rdp-price">
+              <span id="rpd-strk">$29.99 </span><span id="rpd-cl">$24.99</span>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    <!-- End of Related Products Carousel -->
+    <!-- Start of Footer Top --->
+    <footer class="site-footer" role="contentinfo" style="position:relative">
+      <div class="footer-top">
+        <div class="container-footer1">
+          <div class="box-1">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-gift fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="info">Total Discretion</div>
+          </div>
+          <div class="box-2">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-star fa-stack-1x fa-inverse fa-fw"></i>
+            </span>
+            <div class="info">2 Year Warranty</div>
+          </div>
+          <div class="box-3">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-refresh fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="info">1 Year return</div>
+          </div>
+          <div class="box-4">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="info">SSL Security</div>
+          </div>
+        </div>
+        <!--hr class="desc"-->
+        <div class="container-footer2">
+          <div class="box-5">
+            <div class="info1">Subscribe to our newsletter</div>
+            <span class="sp-sm">Receive tips and tricks from our sexologists!</span>
+            <form>
+              <input type="text" name="email"  class="form-control"placeholder="Enter your Email here">
+              <select  class="form-control">
+                <option value disabled selected>Do You Have a Vaigna or Penis ?</option>
+                <option value="vagina">Vagina</option>
+                <option value="penis">Penis</option>
+              </select>
+              <span>
+                <input type="checkbox" name="privacy"  id="custom-check" class="form-control">
+                <span class="sp-sm1">I accept the Privacy Policy</span>
+              </span>
+              <button  type="button" class="btn btn-cyan get-blue" style="margin-top:10px;margin-bottom:10px;color:#ffffff;">Subscribe</button>
+            </form>
+            <span class="declare">No minimum purchase, it does not expire, it cannot be combined with other promotions or offers. We will never share your data. <a href="#">Privacy Policy.</a></span>
+          </div>
+          <div class="box-6">
+            <div class="info">Customer Support</div>
+            <ul class="my-list">
+              <li><a href="#">
+                <span>
+                  <i class="fa fa-fw fa-question-circle" aria-hidden="true"></i>
+                  Frequent Questions
+                </span>
+              </a>
+            </li>
+            <li><a href="#">
+              <span>
+                <i class="fa fa-fw fa-truck" aria-hidden="true"></i>
+                About Shipments
+              </span>
+            </a>
+          </li>
+          <li><a href="#">
+            <span>
+              <i class="fa fa-fw fa-undo" aria-hidden="true"></i>
+              Incidents or Returns
+            </span>
+          </a>
+        </li>
+        <li><a href="#">
+          <span>
+            <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+            Tracking orders
+          </span>
+        </a>
+      </li>
+      <li><a href="#">
+        <span>
+          <i class="fa fa-fw fa-file-text-o" aria-hidden="true"></i>
+          Terms and Conditions
+        </span>
+      </a>
+    </li>
+    <li><a href="#">
+      <span>
+        <i class="fa fa-fw fa-user-secret" aria-hidden="true"></i>
+        Privacy Policy
+      </span>
+    </a>
+  </li>
+  <li><a href="#">
+    <span>
+      <i class="fa fa-fw fa-cog" aria-hidden="true"></i>
+      Use of Cookies
+    </span>
+  </a>
+</li>
+<li><a href="#">
+  <span>
+    <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
+    Contact us
+  </span>
+</a>
+</li>
+</ul>
+</div>
+<div class="box-7">
+<div class="info">Categories</div>
+<ul  class="my-list">
+<li><a href="#"><span><i class="fa fa-star" aria-hidden="true"></i> Best Sellers</span></a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Vibrators</a></li>
+<li><a href="#">Chinese Balls</a></li>
+<li><a href="#">Essentials</a></li>
+<li><a href="#">Erotic Kits</a></li>
+<li><a href="#">Anal Sex</a></li>
+</ul>
+</div>
+<div class="box-8">
+<div class="info">About Us</div>
+<ul  class="my-list">
+<li><a href="#">Our Vision</a></li>
+<li><a href="#">Loyality Programs</a></li>
+<li><a href="#">Affiliates</a>
+<li><a href="#"><span><i class="fa fa-fw fa-youtube" aria-hidden="true"></i>Youtube</span></a></li>
+<li><a href="#"><span><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Instagram</span></a></li>
+<li><a href="#"><span><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i>facebook</span></a></li>
+<li><a href="#"><span><i class="fa fa-fw fa-user"></i>Account Access</span></a></li>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- End of Footer Top -->
+<!-- Footer Bottom -->
+<div class="footer-bottom" style="background-color:white"><!-- Remove this style after in production -->
+<div class="container text-center">
+<div class="footer-info" style="background-color:white"><!-- Remove this style after in production -->
+<a href="#"><img style="margin:20px auto 10px auto;display:block" src="logo1.png" height="147" width="300" alt="Logo Pedro Mall"></a>
+<p  class="hy">YOU WILL PLAY AGAIN <i style="color:#00F1FF" class="fa fa-heart fa-lg"></i></p>
+<p class="hp">Pedro Mall is the leading brand of erotic toys and accessories.</p>
+<p class="hw">We manufacture the best erotic toys, at the best price and with fast and discreet shipping.</p>
+<br>
+<p class="hd">Do you want to learn about <span style="color:rgb(0 241 255);">sex education</span>?</p>
+<p class="hf">Follow us! We are already more than <span style="color:rgb(0 241 255);">1 millon</span> <i class="em em-wink" style="vertical-align: -3px!important;height:20px;width:20px;"></i></p>
+<br>
+<ul class="social">
+<li class="vimeo">
+<a target="_blank" href="#" title="Vimeo">
+</a>
+</li>
+<li class="facebook">
+<a target="_blank" href="#" title="Facebook">
+</a>
+</li>
+<li class="instagram">
+<a target="_blank" href="#" title="Instagram">
+</a>
+</li>
+<li class="twitter">
+<a target="_blank" href="#" title="Twitter">
+</a>
+</li>
+</ul>
+<br>
+<hr class="desc">
+<p style="margin-top:30px;margin-bottom:30px;">
+<a rel="nofollow" target="_blank" href="#">
+<img src="img/footer bottom/f-b1.png" width="100" height="101" style="max-width: 100px;margin-right:20px">
+</a>
+<a rel="nofollow" target="_blank" href="#">
+<img src="img/footer bottom/f-b2.png" width="100" height="100" style="max-width:100px">
+</a>
+<img class="hidden-xs" src="img/footer bottom/f-b3.png" width="300" height="64" style="max-width:300px;margin-left:30px">
+</p>
+<div class="footer-payment-methods">
+<img src="img/footer bottom/cod.jpg" title="Cash on Delivery"width="40" height="40" style="max-width:130px;margin-right:10px;">
+<img src="img/footer bottom/privacy.png" width="105" height="40" title="100% Discret pacakages"style="max-width:105px;margin-right:5px;">
+<img src="img/footer bottom/visa.png" title="Pay with paypal,Amazon,Visa,MasterCard" style="max-width: 290px;height:60;">
+<img src="img/footer bottom/pagantis.png" title="Pay with Pagantis" style="max-width: 116px;margin-right:7px">
+<img src="img/footer bottom/ssl.png" title="Security and encryption using 256-bit SSL certificates"width="110" height="31">
+</div>
+<p class="hidden-xs" style="font-size:12px;color:#b9b9b9">
+Copyright © Pedro Mall 2015-2020. All rights reserved.<br>
+All the prices of products, services or shipping costs shown on this page include the corresponding VAT.<br>
+The Ownership of this website corresponds to Love Digital Factory Spain SL, with CIF-B66522830 and registered office at Plaza Pau Vila 1, Ed. Palau de Mar, Access to Floor 1.
+<br>
+Registered in the Mercantile Registry of Barcelona, ​​Volume 44812, Folio 1, sheet 468226, 1st entry. If you wish, you can contact us
+<a href="#" style="color:#b9b9b9;text-decoration:underline;">
+by clicking here
+</a><br>
+Online dispute resolution pursuant to Art. 14.1 of Regulation (EU) 524/2013: The European Commission provides an online dispute resolution platform, which is available at the
+<a rel="nofollow" href="#" style="color:#b9b9b9;text-decoration:underline;">following Link</a>.</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- End of Footer Bottom -->
+<script type="text/javascript"href="js/bootstrap4.min.js"></script>
+<script type="text/javascript"href="js/app.js"></script>
+<script type="text/javascript"href="js/jquery-3.1.1.min.js"></script>
+</body>
+</html>

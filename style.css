@@ -1,0 +1,116 @@
+.site-nav li.mega-menu:hover .site-nav-dropdown {
+    display: block;
+}
+
+.site-nav li.mega-menu .site-nav-dropdown {
+    width: 200%;
+    left: -50%;
+    right: -50%;
+    padding: 15px 0 25px;
+    border-width: 0px;
+    z-index: 1000;
+}
+
+.site-nav-dropdown {
+    box-shadow: 900px 0 0 #fff, -900px 0 0 #fff, 0 7px 10px -7px rgba(0, 0, 0, .2), 1100px 10px 10px -10px rgba(0, 0, 0, .2), -1103px 10px 10px -10px rgba(0, 0, 0, .2);
+    font: 400 13px/1.65 Poppins, Arial;
+    border-style: solid;
+    border-color: #cacaca;
+    background: #ffffff;
+}
+
+.site-nav-dropdown {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 200px;
+    z-index: 5;
+    padding: 0;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 1px;
+}
+
+:link, :hover, :active, :focus {
+    outline: none !important;
+}
+
+.site-nav {
+    list-style: none;
+    font-size: 0;
+}
+
+.nav-bar {
+    line-height: 80px;
+}
+
+.header-bottom {
+    text-align: center;
+}
+
+html, body {
+    font: 400 13px/2 Poppins, Arial;
+    color: #565656;
+}
+
+--------------------
+
+.site-nav > li.mega-menu {
+    position: static;
+}
+
+.site-nav > li {
+    display: inline-block;
+}
+
+.site-nav li {
+    display: block;
+    margin: 0;
+}
+
+.site-nav {
+    list-style: none;
+    font-size: 0;
+}
+
+.nav-bar {
+    line-height: 80px;
+}
+
+.site-nav {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+    margin: 0 auto;
+    max-width: 780px;
+}
+
+.nav-bar {
+    position: relative;
+    z-index: 990;
+    line-height: 80px;
+    -webkit-transition: line-height .25s;
+    -moz-transition: line-height .25s;
+    -ms-transition: line-height .25s;
+    -o-transition: line-height .25s;
+    transition: line-height .25s;
+}
+
+.no-container-sm {
+    width: auto !important;
+}
+
